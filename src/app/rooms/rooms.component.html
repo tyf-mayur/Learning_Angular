@@ -1,0 +1,20 @@
+<p>rooms works!</p>
+
+<h2>Lets Learn Binding Syntax (3 Types)</h2>
+<h3>1.Interpolation Stantax: </h3>
+<p>Using Interpolationto print Hotel Name: {{hotelName}}</p>
+
+<h3>2.Propety Binding</h3>
+<p>No. of Rooms: </p>
+<div [innerText]="noOfRooms"></div>
+
+<h3>3.Event Binding (Saving/ Taking Data from user)</h3>
+<button (click)="toggle()">Toggle</button>
+<div [hidden]="hideRooms">
+    <p>This the Hidden Content using Toggle</p>
+</div>
+
+<h2>Directive (2Types)</h2>
+<h3>Structural Directives (Can Change the DOM Elements i.e Also can remove and Add Elements)</h3>
+<h3>Attribute Directive(Cannot Add or Remove Dom Elements)</h3>
+
